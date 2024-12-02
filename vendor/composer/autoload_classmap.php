@@ -6,6 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Actions\\GetChatMessages' => $baseDir . '/app/Actions/GetChatMessages.php',
+    'App\\Actions\\GetUserRooms' => $baseDir . '/app/Actions/GetUserRooms.php',
+    'App\\Actions\\GetUsers' => $baseDir . '/app/Actions/GetUsers.php',
+    'App\\Actions\\StoreMessage' => $baseDir . '/app/Actions/StoreMessage.php',
     'App\\Events\\GotMessage' => $baseDir . '/app/Events/GotMessage.php',
     'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',

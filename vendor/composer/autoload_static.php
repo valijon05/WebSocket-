@@ -597,6 +597,10 @@ class ComposerStaticInita010d323e139eae35547a937362f8711
     );
 
     public static $classMap = array (
+        'App\\Actions\\GetChatMessages' => __DIR__ . '/../..' . '/app/Actions/GetChatMessages.php',
+        'App\\Actions\\GetUserRooms' => __DIR__ . '/../..' . '/app/Actions/GetUserRooms.php',
+        'App\\Actions\\GetUsers' => __DIR__ . '/../..' . '/app/Actions/GetUsers.php',
+        'App\\Actions\\StoreMessage' => __DIR__ . '/../..' . '/app/Actions/StoreMessage.php',
         'App\\Events\\GotMessage' => __DIR__ . '/../..' . '/app/Events/GotMessage.php',
         'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
