@@ -3,6 +3,7 @@ services:
         build:
             context: .
             dockerfile: ./docker/php.dockerfile
+        image: websocket-app
         container_name: websocket_app
         restart: unless-stopped
         volumes:
@@ -13,8 +14,8 @@ services:
             - postgres
         ports:
             - "8080:8080"
-#        command: >
-#            sh -c "php artisan reverb:start && php artisan queue:listen"
+    #        command: >
+    #            sh -c "php artisan reverb:start && php artisan queue:listen"
 
     postgres:
         image: postgres
@@ -89,7 +90,3 @@ volumes:
 networks:
     app_network:
         driver: bridge
-
-
-
-

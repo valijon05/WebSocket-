@@ -28,3 +28,7 @@ Route::get('/users/{userId}/chats', function ($userId) {
 });
 
 Route::post('/chats/{chatId}/messages', StoreMessage::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

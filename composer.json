@@ -10,7 +10,7 @@
         "laravel/reverb": "^1.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "laravel/ui": "^4.5",
+        "laravel/ui": "^4.6",
         "predis/predis": "^2.2"
     },
     "require-dev": {
